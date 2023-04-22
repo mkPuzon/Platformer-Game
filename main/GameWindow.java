@@ -3,10 +3,10 @@ package main;
 import javax.swing.JFrame;
 
 public class GameWindow {
-    // Holds JFrame
     private JFrame jframe;
 
     public GameWindow(GamePanel panel) {
+        
         jframe = new JFrame();
 
         jframe.setSize(400, 400); // Sets window width and height
